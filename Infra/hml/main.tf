@@ -27,6 +27,7 @@ resource "aws_s3_bucket" "app_bucket" {
     Env     = "hml"
     Project = "fiap-gitops"
     Team    = "plataforma"
+    Owner   = "parpinelli16"
   }
 }
 
